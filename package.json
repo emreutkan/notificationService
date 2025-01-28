@@ -1,0 +1,25 @@
+{
+  "name": "notificationService",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests available\""
+
+  },
+  "private": true,
+  "dependencies": {
+    "@azure/communication-email": "^1.0.0",
+    "amqplib": "^0.10.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.21.2",
+    "js-yaml": "^4.1.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.0",
+    "typescript": "^5.0.0"
+  }
+}
